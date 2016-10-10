@@ -2,7 +2,7 @@
 
 /**
  * @param {String} time – время в формате HH:MM (например, 09:05)
- * @returns {String} – время римскими цифрами (IX:V)
+ * @returns {String} – время римским цифрами (IX:V)
  */
 function romanTime(time) {
     var t = checkTime(time);
